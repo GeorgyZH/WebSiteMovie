@@ -10,6 +10,6 @@ namespace WebSiteMovie.Data
             : base(options)
         {
         }
-        public DbSet<WebSiteMovie.Models.Movie>? Movie { get; set; }
+        public DbSet<WebSiteMovie.Models.MovieViewModel>? Movie { get; set; }
     }
 }

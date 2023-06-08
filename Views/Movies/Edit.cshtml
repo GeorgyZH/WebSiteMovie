@@ -1,4 +1,4 @@
-﻿@model WebSiteMovie.Models.Movie
+﻿@model WebSiteMovie.Models.MovieViewModel
 
 @{
     ViewData["Title"] = "Edit";
@@ -33,6 +33,9 @@
                 <input asp-for="Price" class="form-control" />
                 <span asp-validation-for="Price" class="text-danger"></span>
             </div>
+            <p>
+
+            </p>
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>
